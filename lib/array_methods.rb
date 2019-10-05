@@ -3,8 +3,13 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  array.sort
-  p array.pop
+  highest_value = 5
+  count = 0 
+
+  while count < array.length do
+    break if count == highest_value
+    count += 1
+  end
 end
 
 def find_min_value(array)
