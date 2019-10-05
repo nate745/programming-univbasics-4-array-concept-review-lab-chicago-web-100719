@@ -10,6 +10,7 @@ def find_max_value(array)
     break if count == highest_value
     count += 1
   end
+  p highest_value
 end
 
 def find_min_value(array)
