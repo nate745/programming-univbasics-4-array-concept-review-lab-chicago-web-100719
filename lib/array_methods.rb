@@ -4,7 +4,7 @@ end
 
 def find_max_value(array)
   highest_value = 5
-  count = 0 
+  count = 0
 
   while count < array.length do
     break if count == highest_value
